@@ -109,7 +109,7 @@ const Home = () => {
       {user?.userType == "principal" && <TouchableOpacity onPress={() => navigation.navigate('TeacherList')}>
         <LinearGradient colors={['#000428', '#004e92']} style={styles.card} onPress={() => navigation.navigate('TeacherList')}>
           <Icon name="users" size={50} color="#E0F7FA" style={styles.icon} />
-          <Text style={styles.cardTitle}>Teachers</Text>
+          <Text style={styles.cardTitle}>Teachers code</Text>
           <Text style={styles.count}>{teacherCount}</Text>
         </LinearGradient>
       </TouchableOpacity>}
